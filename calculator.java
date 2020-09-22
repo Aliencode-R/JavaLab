@@ -8,7 +8,6 @@ public class calculator {
         double b = scan.nextDouble();
         System.out.println("Enter operator");
         char op = scan.next().charAt(0);
-        // int op = scan.nextInt();
         switch(op) {
             case '+': 
                 System.out.println("ans = " + (a + b));
